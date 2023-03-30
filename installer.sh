@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
-REPO="https://github.com/ToxygenX/Megatron.git"
+REPO="https://github.com/LoopXS/Megatron.git"
 CURRENT_DIR="$(pwd)"
 ENV_FILE_PATH=".env"
-DIR="/root/ToxygenX"
+DIR="/root/LoopXS"
 
 while [ $# -gt 0 ]; do
     case "$1" in
     --dir=*)
-        DIR="${1#*=}" || DIR="/root/ToxygenX"
+        DIR="${1#*=}" || DIR="/root/LoopXS"
         ;;
     --branch=*)
         BRANCH="${1#*=}" || BRANCH="main"
