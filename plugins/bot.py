@@ -329,7 +329,7 @@ async def _(e):
             time=3,
             f'<strong><a href="{Link}">[ChangeLogs]</a></strong>',
             parse_mode="html",
-            link_preview=False,
+            link_preview=False
         )
     else:
         await eod(
@@ -337,7 +337,7 @@ async def _(e):
             time=3,
             f'<code>CɪᴘʜᴇʀX Ⲉⲭⲥⳑυⲋⲓⳳⲉ Ⲃⲟⲧ : \n</code><strong>｡⌬｡ up-to-date ｡⌬｡</strong>',
             parse_mode="html",
-            link_preview=False,
+            link_preview=False
         )
 
 
